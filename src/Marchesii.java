@@ -14,7 +14,7 @@ public class Marchesii
 			case 1:
 				es1();				break;
 			case 2:
-				//Inserire metodo statico
+				es2();
 				break;
 			case 3:
 				//Inserire metodo statico
@@ -65,6 +65,22 @@ public class Marchesii
 		}
 
 
+
+	} 
+	static void es2()
+	{
+		String[]a1= new String[5];
+		String[]a2= new String[5];
+		for(int i=0;i<a1.length;i++)
+		{
+			System.out.println("Scrivi una parola ");
+			a1[i]=in.nextLine();
+		}		
+		for(int i=0;i<a2.length;i++)
+		{
+			System.out.println("Scrivi una parola ");
+			a2[i]=in.nextLine();
+		}	
 
 	}
 }
